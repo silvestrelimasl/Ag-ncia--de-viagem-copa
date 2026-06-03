@@ -1,36 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .corpo{
-    color:white
-    ;
-    background-color: black;
-    font-family: Arial, sans-serif;
+    background-color:#040404;
+    margin: 0%;
+    padding: 0%;
+}
+.principal{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100vh;
-    margin: 0;
+    object-fit: cover;
 }
-.logo{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    margin: 5;
-    padding: 20px;
-    display: flex;
-}
+
 .menu{
-    width: 100%
+    position: relative;
+    height: 100px;
+    overflow: hidden;
 }
-.menu ul {
+.menu, video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.menu-link{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(115, 230, 230, 0.5);
+    padding: 5px 5px;
+    margin: 100px 480px;
+    border-radius: 999px;
+}
+.menu-item, a{
+    color:#ffc600;
+    font-family: "playfair-display";
+    text-decoration: none;
+    font-size: 18px;
     list-style: none;
 }
-.menu li a {
-    text-decoration: none;
-    color:goldenrod;
-    font-family: Arial, sans-serif;
-    font-weight: bold, rgba(100, 100, 100, 0.5);
+#destaque{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    text-align: center;
+    font-family: "playfair-display";
+    font-family:"cinzel", serif ;
+    color: #ffc600;
+    font-size: 50px;
 }
-.menu li a:hover{
-    color:gold;
+.sub-titulo{
+    position: relative;
+    top: 40%;
+    left: 1%;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
